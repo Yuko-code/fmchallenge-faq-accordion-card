@@ -134,8 +134,30 @@ margin:5px 0 0 0;
     line-height: 1.125rem;
     padding-right: 30px;
 }
+.card__header--lg{
+    display:none;
+}
+@media screen and (min-width: 767px){
+    .card{
+        max-width:500px;
+    }
+}
+@media screen and (min-width: 1440px){
+
+    .card{
+        flex-direction: row;
 
 
+    }
+    .card__header{
+        display:none;
+    }
+    .card__header--lg{
+        display:block;
+        text-align: center;
+    }
+
+}
 
 
 
