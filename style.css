@@ -47,9 +47,8 @@ body, .card{
     display: flex;
     flex-direction: column;
 }
-
 body{
-font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     color:var(--very-dark-desaturated-blue);
     background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%) );
     background-repeat: no-repeat;
@@ -89,8 +88,6 @@ font-family: 'Kumbh Sans', sans-serif;
     top:140px;
     z-index: 1;
 }
-
-
 .card__header{
     font-size: 2rem;
     font-weight: 700;
@@ -113,7 +110,6 @@ font-family: 'Kumbh Sans', sans-serif;
     margin-top:20px;
     padding:0;
 }
-
 .card__accordion:hover{
     color:var(--soft-red);
 }
@@ -132,7 +128,6 @@ margin:5px 0 0 0;
     display: none;
    overflow: hidden;
 }
-
 .card__panel__text{
     color: var(--dark-grayish-blue);
     font-size: 0.75rem;
