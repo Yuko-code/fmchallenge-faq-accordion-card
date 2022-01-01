@@ -55,17 +55,18 @@ font-family: 'Kumbh Sans', sans-serif;
     background-repeat: no-repeat;
     align-items: center;
     justify-content: space-between;
+    position:relative;
 }
 .card{
     background-color: #fff;
     height:auto;
     width:87.2%;
-    position: relative;
     padding: 135px 25px 45px 25px;
     border-radius: 23px;
     margin-top:145px;
     overflow: auto;
-
+    z-index: 0;
+    box-shadow: 0 50px 50px -20px rgba(53, 18, 122, 49.72%);
 }
 .card__img{
     width:237px;
@@ -76,8 +77,17 @@ font-family: 'Kumbh Sans', sans-serif;
     background-position:center;
     align-self:center;
     position:absolute;
-    top:-120px;
-    overflow:visible;
+    top:20px;
+    z-index: 2;
+}
+.shadow{
+    background-image: url("images/bg-pattern-mobile.svg");
+    background-repeat: no-repeat;
+    width:240px;
+    height:240px;
+    position:absolute;
+    top:140px;
+    z-index: 1;
 }
 
 
