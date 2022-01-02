@@ -53,8 +53,9 @@ body{
     background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%) );
     background-repeat: no-repeat;
     align-items: center;
-    justify-content: space-between;
+    justify-items:center;
     position:relative;
+
 }
 .card{
     background-color: #fff;
@@ -151,9 +152,7 @@ margin:5px 0 0 0;
       justify-content: center;
       overflow:hidden;
     }
-    .footer{
-        display:none;
-    }
+
     .box{
         background-image:url("images/illustration-box-desktop.svg");
         background-repeat: no-repeat;
